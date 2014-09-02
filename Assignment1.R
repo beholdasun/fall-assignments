@@ -7,5 +7,5 @@ answer.2 <- "PostgreSQL Version 9.3"
 
 # 3. Install and load the R package DMwR. Load the data set sales and 
 #    determine the number of observations contained in the data set.
-answer.3 <- "There are 401,146 transaction reports, or observations 
+answer.3 <- "There are 401,146 transaction reports, or observations, 
              made by various salespeople."
