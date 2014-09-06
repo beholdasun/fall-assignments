@@ -47,7 +47,7 @@ people.data <- data.frame(person.name, age.group, years.old, birth.date)
 # Note: column names must match in each data frame
 new.row <- data.frame(person.name="Ron", age.group=factor("senior"), 
                       years.old=70, birth.date=as.Date("1970-06-02"))
-all.data <- rbind(data.frame, new.row)
+all.data <- rbind(people.data, new.row)
 
 # 9.  Show the code that would read in a CSV file called 
 #     temperatures.csv from the current working directory.
